@@ -1,6 +1,6 @@
 # Bank Management System in C++
 
-A console-based banking management system built in C++ with support for client management, user management, transactions, login tracking, and currency exchange.
+A console-based banking system built in C++ with support for client management, user management, transactions, login tracking, permissions, and currency exchange.
 
 ## Overview
 
@@ -15,8 +15,8 @@ The project is structured using object-oriented programming principles and organ
 - User login system
 - Limited login attempts
 - Invalid login handling
-- Password decryption during authentication
 - Login register/history screen
+- Simple password encryption/decryption for file-based authentication
 
 ### Client Management
 - Show client list
@@ -55,8 +55,6 @@ Example permissions include:
 - Login register
 - Currency exchange
 
-Permissions are represented using flags/enums, allowing different users to access different parts of the system.
-
 ### Currency Exchange
 - List currencies
 - Find a currency
@@ -72,6 +70,15 @@ The application includes multiple console screens, such as:
 - Manage Users Screen
 - Login Register Screen
 - Currency Exchange Screen
+
+## Demo Login
+
+For testing purposes, you can use a demo account with full permissions:
+
+- Username: `User2`
+- Password: `1234`
+
+This account is included only to make the project easy to run and explore locally.
 
 ## Project Structure
 
